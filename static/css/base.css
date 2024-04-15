@@ -1,0 +1,14 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+:root {
+  --primaryPurple: #5f4ecb;
+  --textBold: #25272d;
+  --backgroundColor: #f2f5f7;
+  --textColor: #565a61;
+}
