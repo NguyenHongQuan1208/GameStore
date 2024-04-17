@@ -64,6 +64,7 @@
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .header .text-wrapper:hover {

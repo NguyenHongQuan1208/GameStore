@@ -2,7 +2,7 @@
     <div class="nav">
       <a class="logo" href="{{ url_for('index') }}"><img class="full-logo" src="./static/img/full-logo.svg" /><img class="compact-logo" src="./static/img/compact-logo.svg" /></a>
       <div class="nav-text">
-        <div class="text-wrapper">Store</div>
+        <a class="text-wrapper" href="{{ url_for('index') }}">Store</a>
         <div class="text-wrapper">Community</div>
         <div class="text-wrapper">Support</div>
       </div>
@@ -15,7 +15,7 @@
           <a class="button cartbutton" href="{{ url_for('view_cart') }}"><span class="fa-solid fa-shopping-basket"></span></a>
           <div class="avatar-holder">
             <img
-              src="./static/img/default-avatar.jpg"
+              src="./static/img/default-avatar.png"
               alt="User Avatar"
               class="user-avatar"
             />
