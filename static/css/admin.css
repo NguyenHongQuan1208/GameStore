@@ -1,6 +1,7 @@
 @import "styles.css";
 @import "header.css";
 @import "footer.css";
+@import "base.css";
 body,
 html {
   width: 100%;

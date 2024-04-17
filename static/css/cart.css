@@ -1,7 +1,7 @@
 @import "styles.css";
 @import "header.css";
 @import "footer.css";
-
+@import "base.css";
 
 main {
     background-color: #121212;
