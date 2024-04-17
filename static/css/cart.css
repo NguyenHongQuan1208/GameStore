@@ -273,7 +273,6 @@ form {
 .message img {
     align-self: center;
     width: 124px;
-    filter: invert(47%) sepia(4%) saturate(19%) hue-rotate(21deg) brightness(94%) contrast(88%);
     margin-bottom: 30px;
 }
 
