@@ -25,7 +25,7 @@ html {
 .admin-content > .user-manager-panel {
   width: 85%;
   height: 100%;
-  background-color: #121212;
+  background-color: var(--backgroundColor);
 }
 .admin-content > .admin-panel > .admin-holder {
   display: flex;
@@ -109,7 +109,7 @@ html {
   line-height: 16px; /* 64% */
 }
 .user-manager-panel > h1 {
-  color: #fff;
+  color: var(--primaryPurple);
 }
 .user-manager-panel > .search-bar {
   display: flex;
@@ -153,7 +153,6 @@ html {
   padding: 65px 73px;
 }
 .user-manager-panel > h1 {
-  color: #c6c6c6;
   font-size: 2.1vw;
   font-weight: 400;
   margin-bottom: 3.8vh;
