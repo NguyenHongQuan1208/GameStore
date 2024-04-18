@@ -2,6 +2,7 @@
 @import "header.css";
 @import "footer.css";
 @import "font-awesome.min.css";
+@import "base.css";
 
 main{
   display: flex;
