@@ -4,8 +4,8 @@
 
 
 main {
-    background-color: #121212;
-    color:#FFFFFF;
+    background-color: #ffffff;
+    color:black;
     padding-bottom: 60px;
 }
 
@@ -30,18 +30,18 @@ main {
 
 .page-title h1 {
     font-size: 56px;
-    color: #ffffff;
+    color: black;
     font-weight: 300;
 }
 
 .page-title .wallet {
     font-size: 20px;
-    color: #727272;
+    color: black;
     font-weight: 300;
 }
 
 .page-title .wallet b {
-    color: #B8B8B8;
+    color: black;
 }
 
 .left-col{
@@ -54,12 +54,12 @@ main {
 
 .cart-item {
     padding: 20px;
-    background-color: #202020;
+    background-color: #CDCDCD;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    color:#FFFFFF;
+    color:black;
     margin-bottom: 20px;
 }
 
@@ -108,7 +108,7 @@ main {
     align-items: center;
     font-weight: 300;
     border-radius: 5px;
-    background: #df571d;
+    background: #5f4ecb;
     font-size: 12px;
 }
 
@@ -127,7 +127,7 @@ main {
 }
 
 .cart-info .game-price .footnote {
-    color: #727272;
+    color: #25272d;
     font-size: 16px;
     font-style: normal;
     line-height: 100%;
@@ -138,7 +138,7 @@ main {
     flex-direction: row;
     gap: 15px;
     align-self: flex-end;
-    color: #B8B8B8;
+    color: black;
 }
 
 .cart-item .actions button {
@@ -150,13 +150,13 @@ main {
     font-size: 16px;
     font-weight: 300;
     cursor: pointer;
-    color: #727272;
+    color: black;
     height: fit-content;
     letter-spacing: 0px;
 }
 
 .cart-item .actions button:hover{
-    color: #ffffff;
+    color: #5f4ecb;
     background-color: transparent;
 }
 
@@ -218,24 +218,25 @@ main {
     background: transparent;
     font-size: 20px;
     cursor: pointer;
-    color: #ffffff;
+    color: #1d1d1d;
     letter-spacing: 1px;
 }
 
 .left-col button:hover{
-    background-color: #ffffff20;
+    background-color: #bfbfbf20;
 }
 
 .left-col button.action{
     margin-top: 40px;
-    background: #df571d;
+    background: #5f4ecb;
+    color: white;
     border: 0px;
     padding-left: 64px;
     padding-right: 64px;
 }
 
 .left-col button.action:hover{
-    background: #ffffff;
+    background: #f31c00;
     color: #000000;
 }
 
@@ -278,13 +279,15 @@ form .form-input {
 
 form .form-input label {
     font-size: 16px;
-    color:#B8B8B8;
+    color:black;
     font-weight: 600;
 }
-
+form .form-input .form-label{
+    color: black;
+}
 form .form-input .star {
     font-size: 20px;
-    color:#df571d;
+    color:#5f4ecb;
 }
 
 form .form-input input {
@@ -295,11 +298,11 @@ form .form-input input {
     outline: 1px solid #727272;
     height: 50px;
     border-radius: 10px;
-    color:#ffffff;
+    color:black;
 }
 
 form .form-input input:focus {
-    outline: 1px solid #df571d;
+    outline: 1px solid #5f4ecb;
 }
 
 form .form-input#cc-no {

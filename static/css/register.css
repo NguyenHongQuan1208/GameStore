@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #121212;
+  background-color: #5f4ecb;
   overflow-y: hidden;
 }
 main {
@@ -27,14 +27,14 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #121212;
+  background-color: #5f4ecb ;
   width: 560px;
   padding: 64px 20px;
   border-radius: 24px;
 }
 .sign-in-section > .title {
   font-family: "Inter";
-  color: #fff;
+  color: white;
   text-align: center;
   font-size: 20px;
   font-weight: 700;
@@ -65,10 +65,11 @@ main {
   font-size: 20px;
   font-family: "Inter";
   font-weight: 300;
-  color: rgba(245, 245, 245, 0.6);
+  color: black;
   background-color: #ffffff00;
-  border: 1px solid rgba(255, 255, 255, 0.6);
+  border: 1px solid black;
   padding-left: 18px;
+  background-color: #fff;
 }
 
 .user-input-section > .continue {
