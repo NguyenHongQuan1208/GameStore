@@ -30,7 +30,6 @@
             <div class="info">
               <div class="wallet">
                 Your current wallet: <b>0đ</b>
-                <i class="fa-light fa-circle-plus"></i>
               </div>
               <div class="wallet">
                 Your current cart: <b>{{num_items}} items</b>
@@ -99,9 +98,9 @@
             <div class="title">Order Summary</div>
             <div class="price-info">Price<p>{{ "{:,.0f}đ".format(og_total) }}</p></div>
             <div class="price-info">Discount<p>-{{ "{:,.0f}đ".format(discount) }}</p></div>
-            <div class="price-info">Tax<p id="darker">Not available in your country</p></div>
+            <div class="price-info">Tax<p>0đ</p></div>
             <div class="divider"></div>
-            <div class="price-info subtotal">Subtotal<p>{{ "{:,.0f}đ".format(total_price) }}</p></div>
+            <div class="price-info subtotal">Total<p>{{ "{:,.0f}đ".format(total_price) }}</p></div>
             <form id="checkout" action="{{ url_for('checkout') }}" method="POST">
               <button id="checkout" type="submit" class="action">CHECKOUT</button>
             </form>
