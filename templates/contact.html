@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/contact.css') }}">
+    <link rel="stylesheet" href="./static/css/font-awesome.min.css" />
+    <title>Support</title>
+</head>
+<body>
+    {% include '_header.html' %}
+    <!-- Global container -->
+  <div class="global-container">
+    <!-- Web content  -->
+    <div class="web">
+     <!-- Content HÃY CODE VÀO ĐÂY BÊN DƯỚI-->
+     <div class="contact-widget">
+      <div class="contact-title"><h1>Liên hệ</h1></div>
+      <div class="contact-p">
+        <p>Văn chương cũng như ánh sáng, không chỉ giúp ta nhìn rõ thế giới mà còn giúp ta nhìn thấy đời mình</p>
+      </div>
+      <div class="contact-section">
+        <div class="contact-mail">
+          <div class="contact-mail1">
+            <div class="contact-mail11"><i class="fa-solid fa-envelope"></i></div>
+            <div class="contact-mail12"><span> MAIL ME</span></div>
+          </div>
+          <div class="contact-mail2">nquan1208@gmail.com</div>
+          <div class="contact-mail2">info@example.com</div>
+        </div>
+        <div class="contact-sms">
+          <div class="contact-sms1"><h2>Gửi tin nhắn cho tôi</h2></div>
+          <div class="contact-sms2"><p>Văn học Việt Nam mang trong mình bản sắc của một dân tộc với tình yêu đất nước, </p></div>
+          <div class="contact-sms3"><p>tình cảm con người và niềm hy vọng vào tương lai.</p></div>
+        </div>
+        <div class="contact-icon">
+          <div class="contact-ic1"><i class="fa-brands fa-instagram"></i></div>
+          <div class="contact-ic2"><i class="fa-brands fa-facebook"></i></div>
+          <div class="contact-ic2"><i class="fa-brands fa-youtube"></i></div>
+          <div class="contact-ic2"><i class="fa-brands fa-twitter"></i></div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+
+  <div class="contact-backgr">
+    <div class="backgr-inf">
+      <div class="backgr-inf-h2">
+        <h2>Speaking - Events</h2>
+      </div>
+      <div class="backgr-inf-p">
+        <p>Văn học Việt Nam mang trong mình bản sắc của một dân tộc với tình yêu <br> đất nước, tình cảm con người và niềm hi vọng vào tương lai</p>
+      </div>
+    </div>
+    <div class="backgr-inf-button">
+      <button><a href=""><b><span>Contact Me</span></b></a></button>
+    </div>
+   </div>
+
+  <!-- upper footer -->
+  <section class="upper-footer w-full container bg-white flex items-center justify-center">
+    <div class="upper-footer__content flex flex-col items-center">
+      <h2 class="upper-footer__title">Be the first to know</h2>
+      <p class="">A person who won’t read has no advantage over one who can’t read</p>
+    </div>
+  </section>
+    {% include '_footer.html' %}
+</body>
+</html>

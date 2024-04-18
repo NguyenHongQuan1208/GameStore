@@ -2,9 +2,9 @@
     <div class="nav">
       <a class="logo" href="{{ url_for('index') }}"><img class="full-logo" src="./static/img/full-logo.svg" /><img class="compact-logo" src="./static/img/compact-logo.svg" /></a>
       <div class="nav-text">
-        <a class="text-wrapper" href="{{ url_for('index') }}">Store</a>
+        <a class="text-wrapper" href="{{ url_for('search') }}">Store</a>
         <div class="text-wrapper">Community</div>
-        <div class="text-wrapper">Support</div>
+        <a class="text-wrapper" href="{{ url_for('support') }}">Support</a>
       </div>
     </div>
     <div class="user">

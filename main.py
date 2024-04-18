@@ -23,6 +23,10 @@ def index():
     conn.close()
     return render_template("index.html", table=data)
 
+@app.route("/support")
+def support():
+    return render_template("contact.html")
+
 # GENERATE ORDER ID FUNCTION
 def generate_order_id():
     # Generate a UUID and remove dashes to create a custom order ID
