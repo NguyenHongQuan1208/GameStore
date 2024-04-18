@@ -5,6 +5,7 @@
   border: 0;
   font-size: 100%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 :root {
   --primaryPurple: #5f4ecb;
