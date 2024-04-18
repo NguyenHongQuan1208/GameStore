@@ -20,6 +20,7 @@ body{
 .contact-title {
   font-size: 80px;
   text-align: center;
+  color: var(--primaryPurple);
 }
 .contact-p {
   text-align: center;
@@ -50,6 +51,7 @@ body{
 .contact-sms1 {
   font-size: 40px;
   margin-left: 100px;
+  text-align: center;
 }
 .contact-sms2 {
   margin-left: 105px;
@@ -72,12 +74,14 @@ body{
   color: #6600cc;
 }
 .contact-backgr {
+  margin-top: 80px;
   background-color: #202020;
   width: 100%;
   height: 350px;
   display: flex;
 }
 .backgr-inf {
+  width: 50%;
   margin: auto;
 }
 .backgr-inf-h2 {
@@ -91,22 +95,26 @@ body{
 }
 .backgr-inf-button {
   margin: auto;
-  background-color: #ececec;
-  border: 1px solid #ffffff;
+  background-color: var(--primaryPurple);
   box-sizing: border-box;
-  border-radius: 3px;
-  color: black;
+  border-radius: 15px;
   width: 125px;
   height: 50px;
   text-align: center;
-  text-decoration: none;
-  padding: 9px;
   margin-left: -10px;
   cursor: pointer;
 }
-.backgr-inf-button:hover {
-  background-color: black;
-  color: white;
+
+.backgr-inf-button a{
+    line-height: 50px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.backgr-inf-button:hover{
+  transition-duration: 0.3s;
+  background-color: #000000;
+  color: var(--primaryPurple);
 }
 @media only screen and (max-width: 740px) {
   .contact-section {
